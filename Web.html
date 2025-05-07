@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Andrew Dowd</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div id="cursor-light"></div>
+
+  <div class="container">
+    <div class="left-panel">
+      <h1>Andrew Dowd</h1>
+      <h2>Programmer/Stuntman</h2>
+      <p>
+        Hi, I'm Andrew. I attend Bay City Western High School and the Bay Arenac Career Center. When I graduate, I want to become a stuntman.
+      </p>
+    </div>
+
+    <div class="right-panel">
+      <header id="main-header">
+        <h3>Welcome to My Portfolio Website</h3>
+      </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>I'm passionate about sports, films, and physical performance, and I enjoy learning new things and challenging myself to grow. Whether it's through school, creative projects, or hands-on experiences, I'm always looking for opportunities to improve and explore new ideas. In the future, I hope to pursue a career in stunt work. In my free time, I enjoy learning stunt techniques and watching behind-the-scenes action in movies. I also enjoy playing lacrosse, soccer, and a wide variety of video games.</p>
+        <a href="https://www.stuntschool.com/" target="_blank">Visit the International Stunt School</a>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        <p>At the Career Center I've learned programming fundamentals and build projects like this portfolio website, games, and various code using HTML, CSS, Python, and JavaScript.</p>
+        <p>My dedication to physical activity through sports like lacrosse and soccer has helped me build endurance, coordination, and skills that directly support my goal of becoming a stuntman.</p> 
+    </section>
+
+      <section>
+        <h2>Projects</h2>
+        <p>I'm working on improving my fitness, balance, and precision, which are key for stunt work.</p>
+        <p>I'm participating in lacrosse and soccer which has helped me sharpen my reflexes, decision making, and teamwork.</p>
+        <p>At the Career Center and my high school, I push myself to excel academically and physically.</p>
+      </section>
+        <img src="me.jpeg" alt="Andrew Dowd" class="profile-pic" />
+      <footer>
+        <p id="footer-text">2025 Andrew Dowd Portfolio Project</p>
+      </footer>
+    </div>
+  </div>
+
+</body>
+<script>
+    const cursorLight = document.getElementById('cursor-light');
+  
+    document.addEventListener('mousemove', (e) => {
+      cursorLight.style.top = `${e.clientY}px`;
+      cursorLight.style.left = `${e.clientX}px`;
+    });
+  </script>
+</html>
